@@ -1,7 +1,5 @@
 from nltk.corpus import brown
 
-
-
 #I (prs)
 #He (prs)
 #I (past)
@@ -53,7 +51,7 @@ def main():
     lemmas_in_brown = set(lemmas)
     print(f"Number of verbs (all forms) in brown : {len(verbs)}")
     print(f"Numbers of verbs accounted for in unimorph : {len(lemmas)}")
-    print("Number of unimporph verb lemmas in brown: {}".format(len(lemmas_in_brown)))
+    print("Number of unimorph verb lemmas in brown: {}".format(len(lemmas_in_brown)))
     lemma_to_seg = get_lemma_to_segmentation('eng/eng.segmentations')
     classes = dict()
     classes_set = set()
