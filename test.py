@@ -1,7 +1,5 @@
 from nltk.corpus import brown
 
-
-
 #I (prs)
 #He (prs)
 #I (past)
